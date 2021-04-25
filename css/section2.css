@@ -1,0 +1,124 @@
+/**************SECTION_2************/
+.section-2 {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/**********BOX_SECTION*********/
+.location-h2 {
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 35px;
+  color: rgb(33, 198, 248);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+.section-2grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px 400px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px 35px 70px 35px;
+}
+
+.sec2-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border: 2px solid rgb(33, 198, 248);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.31);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.sec2-boxes:hover,
+.sec2-boxes:focus,
+.sec2-boxes:active {
+  background-position: center;
+  background-size: 150%;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 198, 248, 0.425);
+  transition: 800ms;
+}
+
+.overlay:hover,
+.overlay:focus,
+.overlay:active {
+  background: rgba(33, 198, 248, 0);
+}
+
+.location-a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec2-h1 {
+  position: absolute;
+  color: #fff;
+  text-shadow: 0 5px 10px rgb(0, 0, 0);
+  padding: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/**********BOX_IMAGES*********/
+.forest-container {
+  background-image: url(../img/forrest2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+
+.ocean-container {
+  background-image: url(../img/beach1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+
+.magical-container {
+  background-image: url(../img/magical1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+.classa-container {
+  background-image: url(../img/classa1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+.city-container {
+  background-image: url(../img/city4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+.dirtcheap-container {
+  background-image: url(../img/dirtcheap3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+/*********BTN*********/
+/*********BTN*********/
+/*********BTN*********/
+/*********BTN*********/
+/*********BTN*********/

@@ -1,0 +1,55 @@
+/**************SECTION_3************/
+.section-3 {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgb(33, 198, 248);
+}
+.section-3-bkgimg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/hicker6.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 50vh;
+  z-index: 20;
+}
+
+.section-3-h2 {
+  position: relative;
+  font-size: 35px;
+  color: #fff;
+  /*text-shadow: 0 0 1px #333;*/
+  font-weight: 600;
+}
+
+.section-3-p {
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  padding: 50px 10px 0 10px;
+  max-width: 1300px;
+  line-height: 25px;
+}
+
+@media (max-width: 730px) {
+  .section-3-h2 {
+    font-size: 25px;
+    max-width: 510px;
+    font-weight: 600;
+  }
+
+  .section-3-p {
+    font-size: 15px;
+    padding: 20px 10px 0 10px;
+    line-height: 22px;
+  }
+}
