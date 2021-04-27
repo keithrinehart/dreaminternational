@@ -1,0 +1,50 @@
+/**************SECTION_4************/
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+  background: #fff;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 250px;
+}
+
+.footer-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid rgb(33, 198, 248);
+}
+
+#linkedinIcon {
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+.fa-github-alt {
+  color: #333;
+  font-size: 32px;
+  padding: 0 5px;
+  transition: 800ms ease;
+}
+
+.fa-github-alt:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+.footer-p {
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(33, 198, 248);
+}

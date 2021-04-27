@@ -54,6 +54,18 @@
   background-image: url(../img/forest-client1.jpg);
   background-size: 150%;
   background-position: 45% 15%;
+  overflow: hidden;
+}
+
+.mask1 {
+  position: relative;
+  top: 65px;
+  left: -80px;
+  transition: 800ms ease;
+}
+
+#container-1:hover .mask1 {
+  left: 28px;
 }
 
 .container-1-p {
@@ -79,6 +91,19 @@
   background-position: 45% 40%;
 }
 
+.glasses {
+  position: relative;
+  top: 70px;
+  left: 37px;
+  opacity: 0;
+  transform: rotate(-2deg);
+  transition: 800ms ease;
+}
+
+#container-2:hover .glasses {
+  opacity: 1;
+}
+
 .container-2-p {
   position: relative;
   width: 250px;
@@ -100,6 +125,18 @@
   background-image: url(../img/forest-client3.jpg);
   background-size: 300%;
   background-position: 47% 33%;
+  overflow: hidden;
+}
+
+.mask2 {
+  position: relative;
+  top: 150px;
+  left: 25px;
+  transition: 800ms ease;
+}
+
+#container-3:hover .mask2 {
+  top: 58px;
 }
 
 .container-3-p {
