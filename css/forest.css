@@ -357,6 +357,7 @@
   position: relative;
   top: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -388,16 +389,45 @@
   text-shadow: 0 0 4px rgb(15, 173, 68);
 }
 
-/*****************SECTION_***************/
-.section-1-forest {
-  height: 100vh;
-  background: #333;
+.forest-btn-container {
   position: relative;
-  z-index: 11;
+  display: flex;
+  justify-content: center;
+  top: 180px;
 }
+
+.forest-header-btn {
+  position: relative;
+  border: 1px solid rgb(15, 173, 68);
+  background-color: rgb(15, 173, 68);
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  width: 150px;
+  padding: 5px;
+  z-index: 12;
+  transition: 500ms ease-in-out;
+}
+
+.forest-header-btn:hover,
+.forest-header-btn:focus,
+.forest-header-btn:active {
+  border: 1px solid rgb(15, 173, 68);
+  background: #fff;
+  color: rgb(15, 173, 68);
+  cursor: pointer;
+}
+
+/*****************SECTION_***************/
 
 /****************SIZING***************/
 @media (max-width: 781px) {
+  .destination-ul {
+    display: none;
+  }
+
   .banner-text .header-h1-2 {
     font-size: 40px;
   }
@@ -405,6 +435,9 @@
 @media (max-width: 543px) {
   .banner-text .header-h1-2 {
     font-size: 30px;
+  }
+  .forest-h2 {
+    font-size: 50px;
   }
 }
 @media (max-width: 445px) {
@@ -417,5 +450,13 @@
 @media (max-width: 383px) {
   .banner-text .header-h1-2 {
     font-size: 15px;
+  }
+  .forest-h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 331px) {
+  .forest-h2 {
+    font-size: 35px;
   }
 }

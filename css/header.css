@@ -1,3 +1,9 @@
+@media (max-width: 781px) {
+  .destination-ul {
+    display: none;
+  }
+}
+
 @media (max-width: 615px) {
   .banner-text .header-h1 {
     font-size: 40px;
